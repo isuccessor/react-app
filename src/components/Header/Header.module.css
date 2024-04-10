@@ -1,0 +1,13 @@
+.header {
+  min-height: 80px;
+  position: fixed;
+  width: 100%;
+}
+
+.wrapper {
+  justify-content: space-between;
+  padding-bottom: 15px;
+  align-items: center;
+  padding-top: 15px;
+  display: flex;
+}

@@ -1,0 +1,39 @@
+/* *Variables*/
+:root {
+  /* *Colors*/
+  --main-color-site: #fff;
+  --main-color-text: #2f281e;
+  --hover-color-text: #ff9900;
+  --secondary-color-text: #544837;
+  --main-color-button: #ff9900;
+  --border-color-button: #bcd0e5;
+  --c-black: #000;
+
+  /* *Fonts*/
+  --main-font-site: 'Montserrat', sans-serif;
+  --secondary-font-site: 'Poppins', sans-serif;
+}
+
+/* *Base styles*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}

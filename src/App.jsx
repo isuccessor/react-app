@@ -1,0 +1,17 @@
+/* *Base*/
+import cn from 'classnames';
+
+/* *Components */
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Main />
+    </>
+  );
+};
+
+export default App;

@@ -1,0 +1,31 @@
+.main {
+  height: calc(100vh - 80px);
+  padding-bottom: 70px;
+  align-items: center;
+  padding-top: 70px;
+  display: flex;
+}
+
+.wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  gap: 55px;
+}
+
+.content {
+  max-width: 500px;
+  width: 100%;
+}
+
+.info {
+  margin-bottom: 30px;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+}

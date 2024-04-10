@@ -1,0 +1,44 @@
+.button {
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  padding-right: 25px;
+  border-radius: 4px;
+  padding-left: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  height: 45px;
+}
+
+.signIn {
+  background-color: var(--main-color-site);
+  border-color: var(--border-color-button);
+  color: var(--main-color-text);
+}
+
+.signIn:hover {
+  background-color: var(--border-color-button);
+  color: var(--main-color-site);
+}
+
+.signUp {
+  background-color: var(--main-color-button);
+  color: var(--main-color-site);
+}
+
+.signUp:hover {
+  border-color: var(--hover-color-text);
+  background-color: var(--c-black);
+}
+
+.hero {
+  background-color: var(--main-color-button);
+  color: var(--main-color-site);
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.hero:hover {
+  border-color: var(--hover-color-text);
+  background-color: var(--c-black);
+}
