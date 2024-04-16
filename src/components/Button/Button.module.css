@@ -10,35 +10,35 @@
   height: 45px;
 }
 
-.signIn {
+.white {
   background-color: var(--main-color-site);
   border-color: var(--border-color-button);
   color: var(--main-color-text);
 }
 
-.signIn:hover {
+.white:hover {
   background-color: var(--border-color-button);
   color: var(--main-color-site);
 }
 
-.signUp {
+.orange {
   background-color: var(--main-color-button);
   color: var(--main-color-site);
 }
 
-.signUp:hover {
+.orange:hover {
   border-color: var(--hover-color-text);
   background-color: var(--c-black);
 }
 
-.hero {
+.orangeBig {
   background-color: var(--main-color-button);
   color: var(--main-color-site);
   padding-right: 40px;
   padding-left: 40px;
 }
 
-.hero:hover {
+.orangeBig:hover {
   border-color: var(--hover-color-text);
   background-color: var(--c-black);
 }

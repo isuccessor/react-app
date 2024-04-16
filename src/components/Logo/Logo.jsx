@@ -1,8 +1,8 @@
-/* *Styles */
+// * Styles
 import styles from './Logo.module.css';
 
-/* *Assets */
-import logo from '../../assets/logo.png';
+// * Assets
+import logo from '../../../public/assets/logo.png';
 
 const Logo = () => {
   return (

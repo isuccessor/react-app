@@ -1,4 +1,6 @@
 .header {
+  background-color: var(--main-color-site);
+  border-bottom: 1px solid var(--hover-color-text);
   min-height: 80px;
   position: fixed;
   width: 100%;
@@ -10,4 +12,9 @@
   align-items: center;
   padding-top: 15px;
   display: flex;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 30px;
 }

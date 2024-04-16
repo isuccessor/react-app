@@ -1,10 +1,10 @@
-/* *Base */
+// * Base
 import cn from 'classnames';
 
-/* *Styles */
+// * Styles
 import styles from './Wrapper.module.css';
 
-const Wrapper = ({ children, className }) => {
+const Wrapper = ({ children, className = [] }) => {
   return (
     <div className={cn([styles.wrapper, ...className])}>
       { children }

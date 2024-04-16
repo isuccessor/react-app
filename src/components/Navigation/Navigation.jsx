@@ -1,6 +1,7 @@
-import styles from './Nav.module.css';
+// * Styles
+import styles from './Navigation.module.css';
 
-const Nav = () => {
+const Navigation = () => {
 
   const navList = ['Product', 'Customers', 'Pricing', 'Resources'];
 
@@ -19,4 +20,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navigation;

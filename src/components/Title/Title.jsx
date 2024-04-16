@@ -1,4 +1,4 @@
-/* *Styles */
+// * Styles
 import styles from './Title.module.css';
 
 const Title = ({text}) => {
